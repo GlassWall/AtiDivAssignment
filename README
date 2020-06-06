@@ -1,5 +1,5 @@
 A few tips for testing
-0. pip install -r requirements.txt
+0. create a virtual env and pip install -r requirements.txt
 1. Delete the csv to test the code on how it fetches date as far as available
 2. To test the incremental update of data:
    The code uses last modified date of the csv to find out how much more data needs to be fetched 

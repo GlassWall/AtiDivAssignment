@@ -1,0 +1,7 @@
+A few tips for testing
+0. pip install -r requirements.txt
+1. Delete the csv to test the code on how it fetches date as far as available
+2. To test the incremental update of data:
+   The code uses last modified date of the csv to find out how much more data needs to be fetched 
+    touch -a -m -t 202006040130.09 historic_conversions.csv
+    ^ this command could be used to change the last modified date to test 
